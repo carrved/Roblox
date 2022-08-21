@@ -56,7 +56,7 @@ padding.PaddingTop = UDim.new(0, 4)
 --// scrip
 local function maketex(text)
 	local tex = Instance.new("TextLabel")
-	
+
 	tex.Name = "tex"
 	tex.Parent = contain
 	tex.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -67,11 +67,11 @@ local function maketex(text)
 	tex.TextColor3 = Color3.fromRGB(255, 255, 255)
 	tex.TextSize = 14.000
 	tex.TextXAlignment = Enum.TextXAlignment.Left
-	
+
 	wait(0.025)
 end
 
-local tex2make = {"==================","","checkbl0x 0.9.5", "", "Proudly written in vscode", "(c) 2022 specowos" , "Welcome, " .. game.Players.LocalPlayer.Name .. "!", "", "This software is not for sale", "If you have purchased this, please", "report the seller.", "", "==================", "Enabling HAX ... done!", "UHH: Found nothing"}
+local tex2make = {"==================","","checkbl0x 0.9.5", "", "Proudly written in vscode", "(c) 2022 spec", "", "This software is not for sale", "If you have purchased this, please", "report the seller.", "", "==================", "Enabling HAX ... done!", "UHH: Found nothing"}
 
 spawn(function()
 	for i, v in pairs(tex2make) do
