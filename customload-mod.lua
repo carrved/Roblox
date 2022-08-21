@@ -8,6 +8,8 @@ local getasset = getsynasset or getcustomasset
 makefolder("loadingimages")
 writefile("loadingimages/checkra1nlogo.png", game:HttpGet("https://raw.githubusercontent.com/specowos/lua-projects/main/customload/images/checkra1n.png"))
 
+local playername = game:GetService("Players").LocalPlayer.DisplayName
+
 --// make
 local funniload = Instance.new("ScreenGui")
 local checkra1n = Instance.new("Frame")
