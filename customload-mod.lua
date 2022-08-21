@@ -8,8 +8,6 @@ local getasset = getsynasset or getcustomasset
 makefolder("loadingimages")
 writefile("loadingimages/checkra1nlogo.png", game:HttpGet("https://raw.githubusercontent.com/specowos/lua-projects/main/customload/images/checkra1n.png"))
 
-local playername = game:GetService("Players").LocalPlayer.DisplayName
-
 --// make
 local funniload = Instance.new("ScreenGui")
 local checkra1n = Instance.new("Frame")
@@ -73,7 +71,7 @@ local function maketex(text)
 	wait(0.025)
 end
 
-local tex2make = {"==================","","checkbl0x 0.9.5", "", "Proudly written in vscode", "(c) 2022 specowos" , "Welcome, " .. playername .. "!", "", "This software is not for sale", "If you have purchased this, please", "report the seller.", "", "==================", "Enabling HAX ... done!", "UHH: Found nothing"}
+local tex2make = {"==================","","checkbl0x 0.9.5", "", "Proudly written in vscode", "(c) 2022 specowos" , "Welcome, " .. game.Players.LocalPlayer.Name .. "!", "", "This software is not for sale", "If you have purchased this, please", "report the seller.", "", "==================", "Enabling HAX ... done!", "UHH: Found nothing"}
 
 spawn(function()
 	for i, v in pairs(tex2make) do
