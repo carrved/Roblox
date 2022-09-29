@@ -19,9 +19,9 @@ local library = {
     ended = {},
     changed = {},
     folders = {
-        main = "splix",
-        assets = "splix/assets",
-        configs = "splix/configs"
+        main = "mercury",
+        assets = "mercury/assets",
+        configs = "mercury/configs"
     },
     shared = {
         initialized = false,
